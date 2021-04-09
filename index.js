@@ -8,6 +8,8 @@ function fetchBooks() {
     renderBooks(json);
   })
   
+  return fetch;
+  
 }
 
 function renderBooks(books) {
