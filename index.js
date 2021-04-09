@@ -9,7 +9,7 @@ function fetchRequest(){
     renderBooks(json);
   })
 }
-  return fetchRequest();
+  return fetchRequest;
   
 }
 
